@@ -58,3 +58,8 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #555555; /* Changing background color on hover */
 }
+
+.container {
+    width: 50%;
+    margin-left: .5in;
+}
