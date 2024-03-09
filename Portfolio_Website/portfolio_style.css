@@ -52,14 +52,32 @@ footer {
 nav ul li a {
     text-decoration: none;
     color: #ffffff;
-    transition: background-color 0.3s ease; /* Adding transition effect */
+    transition: background-color 0.3s ease; 
 }
 
 nav ul li a:hover {
-    background-color: #555555; /* Changing background color on hover */
+    background-color: #555555; 
 }
 
 .container {
     width: 50%;
     margin-left: .5in;
 }
+
+header nav ul button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px; /* Adjust margin */
+    border-radius: 5px;
+    cursor: pointer;
+    float: right; /* Float the buttons to the right */
+    margin-top: -25px;
+}
+
+header nav ul button a {
+    text-decoration: none;
+    color: white;
+}
+
