@@ -69,10 +69,10 @@ header nav ul button {
     color: white;
     border: none;
     padding: 10px 20px;
-    margin-left: 10px; /* Adjust margin */
+    margin-left: 10px;
     border-radius: 5px;
     cursor: pointer;
-    float: right; /* Float the buttons to the right */
+    float: right;
     margin-top: -25px;
 }
 
@@ -81,3 +81,12 @@ header nav ul button a {
     color: white;
 }
 
+.container h2 {
+    color: white; 
+    background-color: black; 
+    padding: 10px; 
+    border-radius: 5px; 
+    font-size: 24px; 
+    margin-top: 20px; 
+    margin-bottom: 10px;
+}
