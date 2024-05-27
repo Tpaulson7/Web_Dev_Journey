@@ -21,6 +21,8 @@ Check out some of the projects I've worked on:
 
 - [Portfolio Website](https://github.com/Tpaulson7/Web_Dev_Journey/tree/master/Portfolio_Website) - A basic website compiled so far with HTML, soon to have CSS and JavaScript.
 
+- [Browser Games](https://github.com/Tpaulson7/Web_Dev_Journey/tree/master/Browser_Games/Doodle_Jump) - A doodle jump-like game built with HTML, CSS and JavaScript.
+
 ## Learning Resources
 
 Here are some resources that have been helpful to me:
