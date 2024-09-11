@@ -18,15 +18,15 @@ const playGame = (playerChoice) => {
     else {
         switch(playerChoice){
             case "rock": {
-                result = (computerChoice === 'paper' ) ? "You Win!" : "You Lose!";
-                break;
-            }
-            case "paper": {
                 result = (computerChoice === 'scissors' ) ? "You Win!" : "You Lose!";
                 break;
             }
-            case "scissors": {
+            case "paper": {
                 result = (computerChoice === 'rock' ) ? "You Win!" : "You Lose!";
+                break;
+            }
+            case "scissors": {
+                result = (computerChoice === 'paper' ) ? "You Win!" : "You Lose!";
                 break;
             }
         }
