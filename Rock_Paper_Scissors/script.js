@@ -10,16 +10,29 @@ const playGame = (playerChoice) => {
     let computerChoice = Math.floor(Math.random() * choices.length);
     computerChoice = choices[computerChoice];
 
-    const playerDisplay = 0;
-    const computerDisplay = 0;
-
+    let result = "";
+    
     if (playerChoice === computerChoice) {
-        return `You both chose ${playerChoice}, it's a Tie!`
-    } else if (playerChoice === 'rock' && computerChoice === 'paper' || playerChoice === 'scissors' && computerChoice === 'rock' || playerChoice === 'paper' && computerChoice === 'scissors') {
-        computerDisplay++;
-        return `You chose ${playerChoice} and the computer chose ${computerChoice}, You Lose!`
-    } else {
-        playerDisplay++;
-        return `You chose ${playerChoice} and the computer chose ${computerChoice}, You Win!`
+        result = "It's a Tie!";
+    } 
+    else {
+        switch(playerChoice){
+            case "rock": {
+                result = (computerChoice === 'paper' ) ? "You Win!" : "You Lose!";
+                break;
+            }
+            case "paper": {
+                result = (computerChoice === 'scissors' ) ? "You Win!" : "You Lose!";
+                break;
+            }
+            case "scissors": {
+                result = (computerChoice === 'rock' ) ? "You Win!" : "You Lose!";
+                break;
+            }
+        }
     }
+    
+    playerDisplay.textContent = `PLAYER: ${playerChoice}`;
+    computerDisplay.textContent = `COMPUTER: ${computerChoice}`
+    resultDisplay.textContent = result;
 }
