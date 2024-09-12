@@ -42,10 +42,14 @@ h1 {
     color: white;
 }
 
-
 #computerDisplay, #lossDisplay {
     font-size: 2.5rem;
     color: rgb(241, 40, 40);
+}
+
+#score {
+    font-size: 1.5rem;
+    color: white;
 }
 
 
