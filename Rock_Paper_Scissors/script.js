@@ -52,3 +52,10 @@ const playGame = (playerChoice) => {
     counterDisplay.textContent = `PLAYER: ${wins}`;
     lossDisplay.textContent = `COMPUTER: ${computerWins}`;
 }
+
+const resetGame = () => {
+    wins = 0;
+    computerWins = 0;
+    counterDisplay.textContent = `PLAYER: ${wins}`;
+    lossDisplay.textContent = `COMPUTER: ${computerWins}`;
+}
