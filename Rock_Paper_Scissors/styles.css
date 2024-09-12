@@ -5,11 +5,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: black;
 }
 
 h1 {
     font-size: 3.5rem;
-    color: hsl(0, 0%, 20%);
+    color: hsl(0, 4%, 82%);
 }
 
 .choices {
@@ -21,23 +22,33 @@ h1 {
     min-width: 160px;
     margin: 0 10px;
     border-radius: 250px;
-    background-color: lightblue;
+    background-color: rgb(236, 52, 206);
     cursor: pointer;
     transition: background-color 0.5s ease;
 }
 
 .choices button:hover {
-    background-color: blue;
+    background-color: rgb(255, 0, 34);
 }
 
 #playerDisplay, #computerDisplay {
     font-size: 2.5rem;
+    color: white;
 }
 
 #resultDisplay {
     font-size: 5rem;
     margin: 30px 0;
+    color: white;
 }
+
+
+#counterDisplay, #lossDisplay {
+    font-size: 5rem;
+    margin: 30px 0;
+    color: white;
+}
+
 
 
 

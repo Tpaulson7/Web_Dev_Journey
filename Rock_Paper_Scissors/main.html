@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock, Paper, Scissors</title>
-    <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-    <div class="choices"></div>
-        <h1>Rock - Paper - Scissors</h1>
-        <button onclick="playGame('rock')">Rock</button>
-        <button onclick="playGame('paper')">Paper</button>
-        <button onclick="playGame('scissors')">Scissors</button>
-    </div>
-    
-    <div id="playerDisplay">PLAYER: </div>
-    <div id="computerDisplay">COMPUTER: </div>
-    <div id="resultDisplay">RESULT: </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rock, Paper, Scissors</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="choices">
+            <h1>Rock - Paper - Scissors</h1>
+            <button onclick="playGame('Rock')">👊</button>
+            <button onclick="playGame('Paper')">✋</button>
+            <button onclick="playGame('Scissors')">✌️</button>
+        </div>
 
-    <script src="script.js"></script>
-</body>
+        <div id="playerDisplay">PLAYER: </div>
+        <div id="computerDisplay">COMPUTER: </div>
+        <div id="resultDisplay"></div>
+
+        <div id="counterDisplay">PLAYER: 0</div>
+        <div id="lossDisplay">COMPUTER: 0</div>
+
+        <script src="script.js"></script>
+    </body>
 </html>
