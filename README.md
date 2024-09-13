@@ -8,12 +8,11 @@ Welcome to my web development journey repository!
 - [Projects](#projects)
 - [Learning Resources](#learning-resources)
 - [Goals and Progress](#goals-and-progress)
-- [Contributing](#contributing)
 - [Contact Information](#contact-information)
 
 ## Skills and Technologies
 
-Throughout my journey, I've been learning and exploring various web development technologies, including HTML, CSS, JavaScript, and more.
+Throughout my journey, I've been learning and exploring various web development technologies including HTML, CSS, JavaScript, and more.
 
 ## Projects
 
@@ -32,7 +31,7 @@ Here are some resources that have been helpful to me:
 
 ## Goals and Progress
 
-My goal is to transition to a career in web development, and so far, I've learned HTML and some basic CSS. I'm eager to continue learning and exploring more advanced topics in web development.
+My goal is to transition to a career in Web Development and have been learning JavaScript and GoLang. I'm eager to continue learning and exploring more advanced topics in Web Development.
 
 ## Contact Information
 
